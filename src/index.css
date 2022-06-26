@@ -1,0 +1,28 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
+.p-datatable .p-column-header-content {
+  color:#777!important;
+  white-space: nowrap;
+  font-size: 12px;
+  }
+  .p-datatable .p-datatable-tbody > tr > td {
+      font-size: 15px !important;
+      font-weight: 400;
+  }
+  .p-datatable .p-paginator-bottom {
+      border: none !important;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      padding: 0;
+  }
+  .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+      width: 30px;
+      height: 30px;
+      font-size: 12px;
+  }
+  .p-paginator .p-paginator-current {
+      font-size: 15px;
+  }
